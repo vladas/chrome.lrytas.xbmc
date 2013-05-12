@@ -1,0 +1,18 @@
+a.vidimg {
+   display: block;
+   position: relative;
+}
+a.vidimg span {
+   visibility: hidden;
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+a.vidimg span img {
+   margin: 3px 0px 0px 3px !important;
+   border-width: 0px 0px 0px 0px !important;
+}
+a.vidimg:hover span {
+    visibility: visible;
+    display: block;
+}
