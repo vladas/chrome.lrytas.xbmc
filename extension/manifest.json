@@ -9,7 +9,7 @@
       "matches": [ "http://tv.lrytas.lt/*", "https://tv.lrytas.lt/*" ],
       "run_at": "document_idle"
    } ],
-   "description": "Send lrytas.lt videos to XBMC media center",
+   "description": "Send lrytas.lt videos to your XBMC media center",
    "icons": {
       "128": "assets/icon_128.png",
       "16": "assets/icon_16.png",
@@ -23,5 +23,5 @@
        "assets/play.png",
        "assets/plus.png"
    ],
-   "version": "0.1"
+   "version": "0.2"
 }
