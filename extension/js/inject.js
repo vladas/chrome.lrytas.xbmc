@@ -63,7 +63,7 @@ var LRXBMC = (function () {
     };
     
     my.applyXbmcLinksWithTimeout = function(timeout) {
-        if (!triggerApplysXbmcLinks) {
+        if (!triggerApplyXbmcLinks) {
             triggerApplyXbmcLinks = true;
             
             setTimeout(function(){
